@@ -3,9 +3,6 @@ import {createContainer} from 'meteor/react-meteor-data'
 import { Links } from '../../imports/collections/links'
 
 class LinkList extends Component {
-    componentWillMount() {
-        console.log(this.props.links)
-    }
 
     render() {
         return <div>Link List</div>

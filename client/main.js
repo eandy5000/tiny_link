@@ -1,5 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { Links } from '../imports/collections/links'
+
 //components
 import HeaderComponent from './components/HeaderComponent'
 import LinkList from './components/LinkList'
