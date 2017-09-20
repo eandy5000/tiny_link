@@ -11,8 +11,10 @@ const App = () => {
   return (
     <div>
       <HeaderComponent />
-      <LinkCreate />
-      <LinkList />
+      <div className="container">
+        <LinkCreate />
+        <LinkList />
+      </div>
     </div>
   )
 }
